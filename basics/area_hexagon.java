@@ -10,11 +10,11 @@ public class area_hexagon {
        float side = input.nextFloat();
        input.close();
        float area = (float)((3*side*side*Math.sqrt(3))/2);
-       System.out.printf("Area of pentagon: %.2f\n", area);
+       System.out.printf("Area of hexagon: %.2f\n", area);
 
        DecimalFormat decimal = new DecimalFormat();
        decimal.setMaximumFractionDigits(3);
-       System.out.println("Area of pentagon: " + decimal.format(area));
+       System.out.println("Area of hexagon: " + decimal.format(area));
     
     }
 }
