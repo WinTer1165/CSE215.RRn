@@ -9,6 +9,9 @@ public class loop_task2 {
 
         System.out.printf("A: \n");
         for (int i = row; i >= 1; i--) {
+            for(int k = row; k>=i; k--){
+                 System.out.printf(" ");
+            }
             for (int j = i; j >= 1; j--) {
                 System.out.printf("%d", j);
             }
